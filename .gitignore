@@ -1,0 +1,12 @@
+# data files - never commit the loan tape to git
+data/
+*.csv
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# databricks / notebook cruft
+.ipynb_checkpoints/
